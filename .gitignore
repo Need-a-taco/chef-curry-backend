@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / package files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual Environment
+venv/
+.env
+*.venv
+
+# Ignore secret keys and environment variables
+.env
+*.env
+config.yaml
+secrets.json
+
+# Logs & Database
+logs/
+*.log
+db.sqlite3
+instance/
+*.db
+
+# Ignore caches
+.cache/
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules (if using frontend like React)
+node_modules/
+
+# Ignore compiled and dependency files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ignore IDE & Editor files
+.vscode/
+.idea/
+*.iml
